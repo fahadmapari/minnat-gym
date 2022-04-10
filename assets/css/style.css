@@ -5679,13 +5679,19 @@ table p {
   color: #e5ba03;
 }
 .service-item .inner-content .content .class-time {
-  color: #787878;
-  font-size: 18px;
+  color: #000;
+  font-size: 20px;
   font-weight: 500;
   margin-bottom: 0;
   margin-left: 15px;
   letter-spacing: 0.3px;
+  transition: all 150ms ease;
 }
+
+.service-item:hover .inner-content .class-time {
+  color: #e5ba03 !important;
+}
+
 .service-item:hover .inner-content .thumb span img {
   transform: scale(1.25);
   -webkit-transform: scale(1.25);
