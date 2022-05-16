@@ -9896,3 +9896,7 @@ table p {
     margin-bottom: 0 !important;
   }
 }
+
+.title.center{
+  text-align: center;
+}
