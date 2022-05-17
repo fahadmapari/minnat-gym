@@ -9900,3 +9900,46 @@ table p {
 .title.center{
   text-align: center;
 }
+
+.founder-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.founder-container p{
+  color: black;
+}
+
+.founder-container img{
+  border-radius: 15px;
+  margin: 5px;
+}
+
+.founder-image-container{
+  flex: 3;
+}
+
+.founder-content{
+  flex: 6;
+} 
+
+.founder-content ul li{
+  list-style: disc  !important;
+}
+
+.founder-content ul{
+  margin-left: 25px;
+}
+
+@media (max-width: 1180px){
+  .founder-container{
+    flex-direction: column;
+  }
+
+  .founder-container .founder-content{
+    margin-top: 35px;
+  }
+
+}
