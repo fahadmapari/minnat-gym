@@ -9959,3 +9959,7 @@ table p {
   background: #252525;
   border-radius: 25px;
 }
+
+.martial-arts-pricing{
+  padding-top: 0 !important;
+}
