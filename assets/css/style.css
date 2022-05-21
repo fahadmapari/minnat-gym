@@ -9963,3 +9963,14 @@ table p {
 .martial-arts-pricing{
   padding-top: 0 !important;
 }
+
+.mobile-hero-image{
+  display: none;
+  width: 100%;
+}
+
+@media(max-width: 991px){
+  .mobile-hero-image{
+    display: block;
+  }
+}
